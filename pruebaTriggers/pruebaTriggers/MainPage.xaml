@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pruebaTriggers.MainPage">
+    
+   <StackLayout>
+        
+        <!--<CheckBox x:Name="Prueba">
+            <CheckBox.Triggers>
+                <Trigger TargetType="CheckBox"
+                 Property="IsChecked" Value="True"
+                         >
+                    <Setter Property="BackgroundColor" Value="Yellow" />
+                </Trigger>
+            </CheckBox.Triggers>
+        </CheckBox>-->
+       
+       <!--<Entry Placeholder="Escribir texto"
+               x:Name     ="TextEntry" />
+
+        <Button Text            ="Botoncito"
+                BackgroundColor ="#C39BD3">
+            <Button.Triggers>
+                <DataTrigger TargetType="Button"
+                            Binding   ="{Binding Source={x:Reference TextEntry}, Path=Text.Length}" 
+                            Value     ="0">
+                    <Setter Property="Text"             Value="Trigger activado" />
+                    <Setter Property="BackgroundColor"  Value="Tomato" />
+                </DataTrigger>
+            </Button.Triggers>
+        </Button>-->
+        
+        <!--<RadioButton x:Name="Prueba4" Content="Perritos" GroupName="Animales">
+            <RadioButton.Triggers>
+                <Trigger TargetType="RadioButton"
+          Property="IsChecked" Value="True"
+                  >
+                    <Setter Property="BackgroundColor" Value="Tomato" />
+                </Trigger>
+            </RadioButton.Triggers>
+            </RadioButton>
+        <RadioButton x:Name="Prueba5" Content="Gatitos" GroupName="Animales">
+        <RadioButton.Triggers>
+            <Trigger TargetType="RadioButton"
+Property="IsChecked" Value="True"
+        >
+                <Setter Property="TextColor" Value="Gold" />
+            </Trigger>
+        </RadioButton.Triggers>
+        </RadioButton>-->
+
+    </StackLayout> 
+
+</ContentPage>
